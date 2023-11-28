@@ -611,6 +611,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1517357077}
   - component: {fileID: 1517357078}
+  - component: {fileID: 1517357079}
   m_Layer: 0
   m_Name: Audio
   m_TagString: Untagged
@@ -729,6 +730,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1517357079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517357076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe6ef7d1cb4cc1c4281bca219caa9a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1765684732 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7720712631412147130, guid: e3e8e00c28ec4dd4397266bc42c58b56, type: 3}
@@ -894,30 +907,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: frog
       objectReference: {fileID: 0}
-    - target: {fileID: 4174090499206152999, guid: 46b8f18b2226d9a48b593ca95ff1373b, type: 3}
-      propertyPath: m_Size.x
-      value: 0.26178193
-      objectReference: {fileID: 0}
-    - target: {fileID: 4174090499206152999, guid: 46b8f18b2226d9a48b593ca95ff1373b, type: 3}
-      propertyPath: m_Size.y
-      value: 0.19467114
-      objectReference: {fileID: 0}
-    - target: {fileID: 4174090499206152999, guid: 46b8f18b2226d9a48b593ca95ff1373b, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.0047936663
-      objectReference: {fileID: 0}
-    - target: {fileID: 4174090499206152999, guid: 46b8f18b2226d9a48b593ca95ff1373b, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.016777717
-      objectReference: {fileID: 0}
-    - target: {fileID: 7906815301139678114, guid: 46b8f18b2226d9a48b593ca95ff1373b, type: 3}
-      propertyPath: m_BodyType
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7906815301139678114, guid: 46b8f18b2226d9a48b593ca95ff1373b, type: 3}
-      propertyPath: m_Simulated
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 7260163371650465071, guid: 46b8f18b2226d9a48b593ca95ff1373b, type: 3}
+      propertyPath: _audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: cce9f8b78393837498a2602084fb4fb6, type: 3}
+    - target: {fileID: 7260163371650465071, guid: 46b8f18b2226d9a48b593ca95ff1373b, type: 3}
+      propertyPath: _audioPlayer
+      value: 
+      objectReference: {fileID: 1517357079}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46b8f18b2226d9a48b593ca95ff1373b, type: 3}
 --- !u!1001 &4590276940659572189
@@ -1041,6 +1038,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 856514610}
     m_Modifications:
+    - target: {fileID: 1412885471, guid: 56408d049d131624b842b9b1bed123ac, type: 3}
+      propertyPath: _audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0c0b2ef126187654eab0ea094944e5aa, type: 3}
+    - target: {fileID: 1412885471, guid: 56408d049d131624b842b9b1bed123ac, type: 3}
+      propertyPath: _audioPlayer
+      value: 
+      objectReference: {fileID: 1517357079}
     - target: {fileID: 7632853234301008896, guid: 56408d049d131624b842b9b1bed123ac, type: 3}
       propertyPath: m_Name
       value: fox
